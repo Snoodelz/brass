@@ -1,0 +1,159 @@
+:root {
+    --main-blue: #00457A;
+    --main-orange: #FDB94C;
+  }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+  }
+  
+  .header-title{
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    color: white;
+  }
+
+  header {
+    background-color: var(--main-blue);
+
+    color: white;
+  }
+
+
+  
+  header nav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+  }
+  
+  header nav ul li {
+    margin: 0 20px;
+  }
+  
+  header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  header nav ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  .logo{
+    width: 100px;
+    display: span;
+  }
+
+  .hero {
+    background-image: url("./assets/1G6A7066.png");
+    background-color: var(--main-orange);
+    color: white;
+    text-align: center;
+    background-position: 50% 20%;
+    background-size: cover;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+  
+  .hero p {
+    font-size: 24px;
+  }
+  
+  .about {
+    padding: 0px 20px 40px 20px;
+    text-align: center;
+    background-color: var(--main-orange);
+  }
+  
+  .about h2 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    color: rgb(51, 51, 51);
+    font-family: "Brawler", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .about p {
+    font-size: 18px;
+    max-width: 70rem;
+    margin: 0 auto;
+    line-height: 1.6;
+    color: #333;
+  }
+  
+  .performances {
+    padding: 0px 20px 30px;
+    text-align: center;
+  }
+  
+  .performances h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: var(--main-blue);
+  }
+  
+  .performances ul {
+    list-style-type: none;
+    font-size: 18px;
+    color: var(--main-blue);
+  }
+  
+  .performances ul li {
+    margin-bottom: 10px;
+  }
+  
+  .contact {
+    padding: 10px 100px 60px;
+    text-align: center;
+    background-color: var(--main-blue);
+    color: white;
+  }
+
+  .contact h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: white;
+  }
+  
+  .contact p {
+    font-size: 18px;
+  }
+  
+  .contact a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .contact a:hover {
+    text-decoration: underline;
+  }
+  
+  footer {
+    background-color: var(--main-blue);
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+  
